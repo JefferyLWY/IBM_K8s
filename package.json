@@ -1,0 +1,19 @@
+{
+  "name": "ibm_k8s",
+  "version": "1.0.0",
+  "description": "IBM Application on K8s",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JefferyLWY/IBM_K8s.git"
+  },
+  "author": "Jeffery Lau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JefferyLWY/IBM_K8s/issues"
+  },
+  "homepage": "https://github.com/JefferyLWY/IBM_K8s#readme"
+}
