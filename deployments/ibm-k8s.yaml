@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ibm-k8s
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: ibm-k8s
+        track: stable
+    spec:
+      containers:
+        - name: ibm-k8s
+          image: "us.icr.io/ibm-k8s/ibm-k8s:1.0"
+          ports:
+          - containerPort: 80
