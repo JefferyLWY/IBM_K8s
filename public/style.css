@@ -4,13 +4,19 @@ html, body {
 body {
     margin: 0;
     background-color: rgb(27, 27, 27);
+}
+.ibm {
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    animation: glower 5s ease infinite;
     background-image: url("./ibm.png");
-    background-blend-mode: screen;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
 }
 .flex-container {
+    z-index: 1;
     height: 100%;
     padding: 0;
     margin: 0;
@@ -29,3 +35,8 @@ body {
     font-size: 300%;
     text-align: center;
 }
+@keyframes glower {
+    50% {
+      opacity: 0;
+    }
+  }
